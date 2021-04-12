@@ -1,0 +1,13 @@
+/* BACKGROUND AND BASIC WRAPPER */
+body {
+  background-color: #f1eaea;
+  background-image: url("../images/flinders.jpg");
+  overflow-x: hidden;
+  height: auto;
+  overflow-y: scroll;
+}
+
+.analysis-wrapper {
+  margin-top: 150px;
+  height: 100%;
+}

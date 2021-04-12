@@ -1,3 +1,5 @@
+/* MAIN */
+
 .headerContainer {
   left: 0;
   top: 0;
@@ -5,18 +7,18 @@
   width: 100%;
   opacity: 0.8;
   position: fixed;
-  background-color: #d6761b;
+  background-color: #000000;
 }
 
 ul {
   list-style-type: none;
 }
 
-.logoForHeader {
-  left: 30px;
-  top: 25px;
-  width: 200px;
-  height: auto;
+/* LOGO */
+
+.logoMain {
+  top: 10px;
+  left: 15px;
   position: fixed;
 }
 
@@ -52,6 +54,7 @@ ul {
 .nav-button:link,
 .nav-button:active {
   text-decoration: none;
+  color: #e27c29;
 }
 
 .menu-bars {
@@ -124,7 +127,7 @@ ul li {
   display: none;
 }
 
-/* PHONE SECTION */
+/* PHONE STYLING */
 .nav-button-phone {
   color: #e27c29;
   text-decoration: none;

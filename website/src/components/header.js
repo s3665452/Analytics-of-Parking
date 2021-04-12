@@ -1,8 +1,14 @@
+// LIBRARY + REACT IMPORTS
 import { Link } from 'react-router-dom'
 import React, { useState } from "react";
 import { AiOutlineClose } from 'react-icons/ai';
 import * as AiIcon from "react-icons/ai";
+
+// CSS
 import '../css/header.css';
+
+// IMAGES
+import logoMain from "../images/logo-full.png";
 
 function Header() {
 
@@ -13,18 +19,19 @@ function Header() {
         <>
 
             <div className="headerContainer">
+                <img src={logoMain} className="logoMain"></img>
 
-                {/* LOGO */}
+                {/* SIDE NAV BAR */}
                 <AiIcon.AiOutlineMore size={40} style={{ fill: '#e6dfd9'}}  className="dropDownPos" onClick={showSideNavBar}/>
-
                 {/* NAVIGATION BAR */}
                 <div className = "topNavBar">
                     <ul className="nav">
-                        <li><Link to="/" className="nav-button">HOME</Link></li>
-                        <li><Link to="/" className="nav-button">ABOUT</Link></li>
-                        <li><Link to="/" className="nav-button">ANALYSIS</Link></li>
-                        <li><Link to="/" className="nav-button">COLLABORATION</Link></li>
-                        <li><Link to="/" className="nav-button">CONTACT</Link></li>
+                        
+                        <li><a href="/" className="nav-button">HOME</a></li>
+                        <li><a href="/about" className="nav-button">ABOUT</a></li>
+                        <li><a href="/analysis" className="nav-button">ANALYSIS</a></li>
+                        <li><a href="/collaboration" className="nav-button">COLLABORATION</a></li>
+                        <li><a href="/contact" className="nav-button">CONTACT</a></li>
                     </ul>
                 </div>
 
@@ -36,11 +43,11 @@ function Header() {
                     <li className="navbar-toggle" >
                         <Link to="#" className='menu-bars' ><AiOutlineClose size={25} style={{ fill: 'white' }} /> </Link >
                     </li>
-                        <li><Link to="/" href="#top" name="top" className="nav-text">HOME</Link></li>
-                        <li><Link to="/" className="nav-text">ABOUT</Link></li>
-                        <li><Link to="/" className="nav-text">ANALYSIS</Link></li>
-                        <li><Link to="/" className="nav-text">COLLABORATION</Link></li>
-                        <li><Link to="/" className="nav-text">CONTACT</Link></li>
+                        <li><a href="/" href="#top" name="top" className="nav-text">HOME</a></li>
+                        <li><a href="/about" className="nav-text">ABOUT</a></li>
+                        <li><a href="/analysis" className="nav-text">ANALYSIS</a></li>
+                        <li><a href="/collaboration" className="nav-text">COLLABORATION</a></li>
+                        <li><a href="/contact" className="nav-text">CONTACT</a></li>
 
                 </ul>
             </div>
