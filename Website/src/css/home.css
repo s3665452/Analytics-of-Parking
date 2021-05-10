@@ -1,0 +1,128 @@
+/* BACKGROUND AND BASIC WRAPPER */
+body {
+  background-image: url("../images/flinders.jpg");
+  overflow-x: hidden;
+  height: auto;
+  overflow-y: scroll;
+  background-repeat: no-repeat;
+  background-color: #242424 !important;
+}
+
+.home-wrapper {
+  margin-top: 150px;
+  height: 100%;
+}
+
+/* TEXT MODIFICATIONS */
+
+h1 {
+  color: white;
+  font-size: 45px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h2 {
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.description-home {
+  background-color: hsla(22, 100%, 50%, 0.8);
+  left: 0;
+  width: 100%;
+  padding-left: 6%;
+  padding-right: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.paragraph-home {
+  font-size: 19px;
+  font-weight: 500;
+  color: white;
+}
+
+/* FINDINGS */
+
+.findings-wrapper {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: hsla(22, 100%, 50%, 0.8);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.findings-pic {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0 auto;
+}
+
+.findings-desc {
+  grid-column: 2;
+  grid-row: 1;
+  vertical-align: center;
+  text-align: left;
+}
+
+.button-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.graph-image {
+  width: 300px;
+  height: auto;
+}
+
+.verdictButton {
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+.verdictButton:hover,
+.verdictButton:active {
+  background-color: #351d06; /* Green */
+}
+
+/* PHONE LAYOUT */
+@media only screen and (max-device-width: 800px) {
+  /* TEXT MODIFICATIONS */
+  h1 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  h2 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .description-home {
+    padding-left: 5%;
+    padding-right: 15%;
+    width: 60%;
+  }
+
+  .findings-wrapper {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .paragraph-home {
+    padding-right: 15%;
+  }
+}

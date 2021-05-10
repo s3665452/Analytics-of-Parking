@@ -1,0 +1,96 @@
+/* BACKGROUND AND BASIC WRAPPER */
+
+body {
+  background-color: #f1eaea;
+  background-image: url("../images/flinders.jpg");
+  overflow-x: hidden;
+  height: auto;
+  overflow-y: scroll;
+}
+
+.contact-wrapper {
+  margin-top: 150px;
+  height: 100%;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+/* STATIC CONTACT */
+
+.contact-details {
+  background-color: black;
+  grid-column-start: 1;
+  left: 0;
+  margin-left: 130px;
+  width: 60%;
+  height: 350px;
+  margin-bottom: 100px;
+  opacity: 0.9;
+  color: white;
+  display: flex;
+}
+
+h3 {
+  color: white;
+  text-align: left;
+}
+
+.static-text {
+  text-align: left;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.filler {
+  color: #d6761b;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+/* TEXT */
+
+.description-wrapper {
+  font-weight: bold;
+  margin-left: 80px;
+  margin-bottom: -10px;
+  margin-top: -30px;
+}
+
+/* PHONE LAYOUT */
+@media (max-width: 820px) {
+  /* GENERAL STRUCTURE */
+  .contact-grid {
+    display: flex;
+  }
+
+  /* CONTACT DETAILS DDS */
+  .contact-details {
+    background-color: black;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+    opacity: 0.9;
+    border-radius: 0px;
+    color: white;
+    display: flex;
+  }
+
+  .static-text {
+    margin: 0 auto;
+  }
+
+  .description-wrapper {
+    margin-left: 30px;
+    margin-bottom: 0px;
+  }
+}

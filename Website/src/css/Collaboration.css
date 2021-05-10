@@ -1,0 +1,24 @@
+/* BACKGROUND AND BASIC WRAPPER */
+body {
+  background-color: #f1eaea;
+  background-image: url("../images/flinders.jpg");
+  overflow-x: hidden;
+  height: auto;
+  overflow-y: scroll;
+}
+
+.collab-wrapper {
+  margin-top: 150px;
+  height: 100%;
+}
+
+/* TEXT */
+
+.colab-text-wrapper {
+  background-color: black;
+  opacity: 0.8;
+  height: 400px;
+  padding-left: 6%;
+  width: 100%;
+  color: white;
+}

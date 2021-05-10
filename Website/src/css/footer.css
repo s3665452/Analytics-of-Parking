@@ -1,0 +1,73 @@
+/* MAIN */
+
+.footer-wrapper {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #d6761b;
+  height: auto;
+  position: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+}
+
+/* LINKS SECTION */
+
+.Links-wrapper-1 {
+  color: white;
+  grid-column: 1;
+  text-align: right;
+}
+
+.Links-wrapper-2 {
+  margin-top: 0.5em;
+  color: white;
+  grid-column: 2;
+}
+
+h3 {
+  text-align: right;
+  padding-left: 2em;
+}
+
+.Linkslist {
+  text-decoration: none;
+  padding-top: 0;
+  text-align: left;
+}
+
+ul {
+  line-height: 80%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+/* INFORMATION SECTION */
+
+.collabInfo-wrapper {
+  grid-column: 3;
+  color: white;
+  text-align: left;
+}
+
+.VicRoads {
+  width: 150px;
+  height: auto;
+}
+/* LOGO SECTION */
+
+.logoSection {
+  background-color: white;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 100%;
+  text-align: center;
+}
