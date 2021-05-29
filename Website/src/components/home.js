@@ -7,6 +7,7 @@ import '../css/home.css';
 
 //Images
 import placeholder from '../images/placeholder.jpg';
+import image1 from '../images/fp_image1.png';
 
 function Home() {
 
@@ -27,14 +28,24 @@ function Home() {
                 {/* ANALYSIS LINK */}
                 <div className="findings-wrapper">
                     <div className="findings-pic">
-                        <img src={placeholder} className="graph-image" />
+                        <img src={image1} className="graph-image" />
                     </div>
                     <div className="findings-desc">
 
                         <a href="/analysis">
-                            <button className="verdictButton">View the Verdict</button>
+                            <button className="verdictButton">See the Analysis Process!</button>
                         </a>
                     </div>
+                </div>
+                
+
+                {/* COLLABORATION LINK */}
+                <div className="collaborations-wrapper">
+                <p className="paragraph-collab">Do you want to know more about the collaboration? < br /> Click here to see who we've partnered up with to help fix Melbourne's parking!</p>
+                    <div className="vertical-center">
+                    <a href="/collaboration" >
+                        <button className="collabButton">Collab</button>
+                    </a> </div>               
                 </div>
             </div>
         </>

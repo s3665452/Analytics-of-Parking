@@ -29,7 +29,8 @@ h2 {
 }
 
 .description-home {
-  background-color: hsla(22, 100%, 50%, 0.8);
+  background-color: black;
+  opacity: 0.8;
   left: 0;
   width: 100%;
   padding-left: 6%;
@@ -48,19 +49,24 @@ h2 {
 
 .findings-wrapper {
   margin-top: 150px;
-  margin-bottom: 150px;
   height: auto;
   display: grid;
   grid-template-columns: auto auto;
-  background-color: hsla(22, 100%, 50%, 0.8);
+  background-color: #2e2e2e;
+  opacity: 1;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 17px;
 }
 
 .findings-pic {
   grid-column: 1;
   grid-row: 1;
   margin: 0 auto;
+  transition: transform 0.2s; /* Animation */
+}
+
+.findings-pic:hover {
+  transform: scale(1.5);
 }
 
 .findings-desc {
@@ -82,7 +88,7 @@ h2 {
 }
 
 .verdictButton {
-  background-color: #000000; /* Green */
+  background-color: black; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -98,6 +104,48 @@ h2 {
   background-color: #351d06; /* Green */
 }
 
+/* COLLABORATIONS */
+
+.collaborations-wrapper {
+  font-size: 20px;
+  height: auto;
+  margin: 0 auto;
+  color: white;
+  background-color: #242424;
+  left: 0;
+  width: 100%;
+  position: relative;
+}
+
+.paragraph-collab {
+  margin-left: 6%;
+}
+
+.collabButton {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 25px;
+  border-radius: 20px;
+}
+
+.collabButton:hover,
+.collabButton:active {
+  background-color: #351d06; /* Green */
+}
+
+.vertical-center {
+  margin: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 10%;
+}
 /* PHONE LAYOUT */
 @media only screen and (max-device-width: 800px) {
   /* TEXT MODIFICATIONS */
@@ -117,12 +165,37 @@ h2 {
     width: 60%;
   }
 
+  /* FINDINGS */
   .findings-wrapper {
     margin-top: 100px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
   }
   .paragraph-home {
     padding-right: 15%;
+  }
+
+  .findings-pic {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0 auto;
+    transition: transform 0.2s; /* Animation */
+  }
+
+  .findings-desc {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .collaborations-wrapper {
+    height: auto;
+    margin: 0 auto;
+    color: white;
+    background-color: #743a05;
+    left: 0;
+    width: 100%;
   }
 }

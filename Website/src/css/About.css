@@ -43,6 +43,7 @@ p {
 .results-button:hover,
 .results-button:active {
   background-color: #351d06; /* Green */
+  cursor: pointer;
 }
 
 /* MACHINE LEARNING DESCRIPTION SECTION */

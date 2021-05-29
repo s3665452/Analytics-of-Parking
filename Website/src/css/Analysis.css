@@ -20,7 +20,7 @@ body {
 .text-wrapper {
   background-color: black;
   opacity: 0.8;
-  height: 400px;
+  height: auto;
   padding-left: 6%;
   width: 100%;
   color: white;
@@ -34,7 +34,9 @@ body {
   background-color: black;
   opacity: 0.8;
   height: auto;
-  padding-bottom: 100px;
+  top: 0;
+  padding-bottom: 50px;
+  padding-top: 50px;
   text-align: center;
   width: 100%;
   color: white;
@@ -50,6 +52,19 @@ body {
 
 .image-3 {
   grid-column: 3;
+  width: 200px;
+}
+
+.image-1,
+.image-2,
+.image-3 {
+  transition: transform 0.2s; /* Animation */
+}
+
+.image-1:hover,
+.image-2:hover,
+.image-3:hover {
+  transform: scale(1.5);
 }
 
 .image-size {
@@ -73,14 +88,20 @@ p {
   }
 
   .text-wrapper {
-    height: 450px;
+    height: auto;
+    width: 100%;
+    position: flex;
+    opacity: 1;
   }
 
   /* DIAGRAMS */
   .images-wrapper {
+    top: 0;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
     padding-bottom: 100px;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .image-1 {

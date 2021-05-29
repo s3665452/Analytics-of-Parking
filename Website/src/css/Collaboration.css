@@ -9,16 +9,68 @@ body {
 
 .collab-wrapper {
   margin-top: 150px;
-  height: 100%;
+  height: auto;
 }
 
 /* TEXT */
 
 .colab-text-wrapper {
   background-color: black;
-  opacity: 0.8;
-  height: 400px;
-  padding-left: 6%;
+  height: auto;
   width: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.desc {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  padding-left: 10%;
+}
+
+/*  IMAGES */
+
+.images-wrapper {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  background-color: black;
+  opacity: 1;
+  height: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.image-n {
+  grid-column: 1;
+  width: 200px;
+  height: auto;
+  margin-left: 10%;
+}
+
+.image-m {
+  grid-column: 2;
+  width: 200px;
+  height: auto;
+  margin-left: 10%;
+}
+
+h4 {
+  margin-left: 10%;
+}
+
+/* TEAM DESCRIPTION */
+
+.colab-text-wrapper- {
+  background-color: black;
+  height: auto;
+  opacity: 0.8;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px;
   color: white;
 }
