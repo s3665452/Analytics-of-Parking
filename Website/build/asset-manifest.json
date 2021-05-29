@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b5b11908.chunk.css",
+    "main.js": "/static/js/main.cbff9803.chunk.js",
+    "main.js.map": "/static/js/main.cbff9803.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6823e4af.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6823e4af.js.map",
+    "static/js/2.c72a138d.chunk.js": "/static/js/2.c72a138d.chunk.js",
+    "static/js/2.c72a138d.chunk.js.map": "/static/js/2.c72a138d.chunk.js.map",
+    "static/js/3.638a9122.chunk.js": "/static/js/3.638a9122.chunk.js",
+    "static/js/3.638a9122.chunk.js.map": "/static/js/3.638a9122.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b5b11908.chunk.css.map": "/static/css/main.b5b11908.chunk.css.map",
+    "static/js/2.c72a138d.chunk.js.LICENSE.txt": "/static/js/2.c72a138d.chunk.js.LICENSE.txt",
+    "static/media/about1.56127997.png": "/static/media/about1.56127997.png",
+    "static/media/about2.f9442b45.png": "/static/media/about2.f9442b45.png",
+    "static/media/about3.f943f299.png": "/static/media/about3.f943f299.png",
+    "static/media/Contact.css": "/static/media/flinders.e817429e.jpg",
+    "static/media/fp_image1.f9d68492.png": "/static/media/fp_image1.f9d68492.png",
+    "static/media/placeholder.d8b3225e.jpg": "/static/media/placeholder.d8b3225e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6823e4af.js",
+    "static/js/2.c72a138d.chunk.js",
+    "static/css/main.b5b11908.chunk.css",
+    "static/js/main.cbff9803.chunk.js"
+  ]
+}
